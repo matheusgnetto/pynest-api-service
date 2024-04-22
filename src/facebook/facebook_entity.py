@@ -31,6 +31,7 @@ class FacebookAdsCustomers(config.Base):
     lead = Column(String)
     initiated_checkout = Column(Integer)
     date_start = Column(String)
+    date_stop = Column(String)
     account = Column(String)
     customer_id = Column(String)
     unit_id = Column(String)
